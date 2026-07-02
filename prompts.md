@@ -12,10 +12,10 @@ Explique o ataque.
 Os invasores criaram um site falso que imitava a página oficial do Claude para distribuir o malware PlugX (RAT). A vítima baixava um instalador aparentemente legítimo, que executava o aplicativo Claude real para não levantar suspeitas enquanto instalava, em segundo plano, o malware. O ataque utilizava a técnica de DLL sideloading para carregar a carga maliciosa, que estabelecia comunicação com um servidor de Comando e Controle (C2), concedendo acesso remoto ao computador. Além do roubo de credenciais e do registro de teclas digitadas, o malware apagava vestígios da instalação para dificultar a investigação. Como medida de proteção, recomenda-se baixar o Claude apenas pelo site oficial.
 
 ### Considerações
--A resposta foi organizada em tópicos, o que facilitou a leitura.
--As informações ficaram um pouco dispersas, dificultando a compreensão da sequência cronológica do ataque.
--Alguns conceitos técnicos (como DLL sideloading e servidor de Comando e Controle) foram apenas mencionados, sem aprofundamento.
--A resposta apresentou uma boa visão geral, mas poderia detalhar melhor como cada etapa do ataque se relaciona com a seguinte.
+- A resposta foi organizada em tópicos, o que facilitou a leitura.
+- As informações ficaram um pouco dispersas, dificultando a compreensão da sequência cronológica do ataque.
+- Alguns conceitos técnicos, como **DLL sideloading** e **Servidor de Comando e Controle (C2)**, foram apenas mencionados, sem aprofundamento.
+- A resposta apresentou uma boa visão geral, mas poderia detalhar melhor como cada etapa do ataque se relaciona com a seguinte.
 ---
 
 ## Prompt 2
@@ -30,10 +30,10 @@ explique o ataque, considerando que a explicação está sendo feita para uma pe
 Os criminosos criaram um site falso do Claude para enganar usuários e distribuir o malware PlugX. A vítima instala um programa que parece legítimo e até abre o Claude verdadeiro, mas, em segundo plano, o malware é instalado silenciosamente. Para evitar detecção, os invasores usam a técnica de DLL sideloading, fazendo um programa confiável carregar um arquivo malicioso. Depois disso, o PlugX abre uma porta dos fundos no computador, permitindo aos hackers roubar senhas, registrar teclas digitadas, acessar arquivos e controlar a máquina remotamente. O malware ainda apaga rastros da instalação para dificultar a investigação. A principal forma de prevenção é baixar o Claude apenas pelo site oficial e desconfiar de sites e arquivos suspeitos.
 
 ### Considerações
--A resposta passou a utilizar analogias e exemplos, tornando o conteúdo mais acessível para leitores iniciantes.
--A simplificação facilitou a compreensão geral do ataque, mas reduziu o nível de detalhamento técnico.
--Houve menor uso de termos técnicos, o que deixou o texto mais enxuto, porém menos preciso para um público especializado.
--O foco passou da descrição técnica para uma explicação didática do funcionamento do ataque.
+- A resposta passou a utilizar analogias e exemplos, tornando o conteúdo mais acessível para leitores iniciantes.
+- A simplificação facilitou a compreensão geral do ataque, mas reduziu o nível de detalhamento técnico.
+- Houve menor uso de termos técnicos, o que deixou o texto mais enxuto, porém menos preciso para um público especializado.
+- O foco passou da descrição técnica para uma explicação didática do funcionamento do ataque.
 ---
 
 ## Prompt 3
@@ -48,9 +48,9 @@ explique o ataque, considerando que a explicação está sendo feita para uma pe
 Este estudo de caso descreve uma campanha de phishing que utiliza engenharia social para distribuir o PlugX, um Trojan de Acesso Remoto (RAT). Os invasores criam um site falso do Claude e induzem a vítima a instalar uma versão inexistente do programa. Enquanto o aplicativo legítimo é executado para não despertar suspeitas, um dropper instala o malware e garante sua persistência ao copiá-lo para a pasta de inicialização do Windows. Em seguida, o ataque utiliza a técnica de DLL sideloading, fazendo um executável legítimo carregar uma DLL maliciosa, que descriptografa e executa o PlugX na memória. Após a infecção, o malware estabelece comunicação com um servidor de Comando e Controle (C2), permitindo acesso remoto, roubo de credenciais e registro de teclas digitadas. Para dificultar a investigação, o malware apaga vestígios da instalação e suprime mensagens de erro.
 
 ### Considerações
--A resposta assumiu que o leitor já possui conhecimentos básicos de cibersegurança, deixando alguns termos sem explicação.
--O foco passou a ser o funcionamento técnico do ataque, em vez de detalhar a narrativa do incidente.
--Houve maior aprofundamento nas técnicas utilizadas pelos invasores, com menor ênfase no contexto e na cronologia do caso.
+- A resposta assumiu que o leitor já possui conhecimentos básicos de cibersegurança, deixando alguns termos sem explicação.
+- O foco passou a ser o funcionamento técnico do ataque, em vez de detalhar a narrativa do incidente.
+- Houve maior aprofundamento nas técnicas utilizadas pelos invasores, com menor ênfase no contexto e na cronologia do caso.
 ---
 
 ## Prompt 4
@@ -94,10 +94,10 @@ Este ataque demonstra como a sofisticação não reside apenas no código do mal
 .
 
 ### Considerações
--Estrutura organizada em contexto e linha do tempo.
--Conceitos técnicos explicados de forma clara ao longo da resposta.
--O contexto inicial facilita a compreensão do cenário do ataque.
--A sequência cronológica torna a evolução do ataque mais fácil de acompanhar.
+- Estrutura organizada em contexto e linha do tempo.
+- Conceitos técnicos explicados de forma clara ao longo da resposta.
+- O contexto inicial facilita a compreensão do cenário do ataque.
+- A sequência cronológica torna a evolução do ataque mais fácil de acompanhar.
 ---
 
 ## Prompt 5
@@ -112,8 +112,8 @@ Justifique a organização desta resposta com base nas informações disponívei
 A resposta foi organizada em uma sequência lógica, começando pelo contexto do ataque e avançando para sua execução técnica, com base nas informações das fontes. Primeiro, é apresentado o cenário que tornou o Claude um alvo atrativo para os criminosos. Em seguida, a cronologia mostra as etapas de preparação da infraestrutura e da campanha de phishing. Por fim, o ataque é detalhado seguindo sua ordem de execução: download do arquivo, instalação, persistência, exploração por DLL sideloading, comunicação com o servidor C2 e ações antiforenses. Essa estrutura foi escolhida para facilitar a compreensão da relação de causa e efeito entre as diferentes fases do ataque.
 
 ### Considerações
--A resposta manteve os principais fatos e explicações apresentados anteriormente.
--Além de preservar as informações iniciais, aprofundou a justificativa da estrutura adotada e da sequência dos acontecimentos.
--A resposta ampliou a compreensão do ataque ao explicar por que cada etapa foi apresentada naquela ordem.
--O foco deixou de ser apenas descrever o ataque e passou a explicar a lógica utilizada na construção da resposta.
+- A resposta manteve os principais fatos e explicações apresentados anteriormente.
+- Além de preservar as informações iniciais, aprofundou a justificativa da estrutura adotada e da sequência dos acontecimentos.
+- A resposta ampliou a compreensão do ataque ao explicar por que cada etapa foi apresentada naquela ordem.
+- O foco deixou de ser apenas descrever o ataque e passou a explicar a lógica utilizada na construção da resposta.
 ---
